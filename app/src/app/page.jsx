@@ -15,14 +15,14 @@ const Page = () => {
         <p className='w-[260px] text-[14px] ml-10 mt-10 text-gray-300 mb-[-8px]'>
           Türkiye’nin en güzel su altı noktalarında, profesyonel rehberler eşliğinde unutulmaz bir yolculuğa çıkın.
         </p>
-        <div className='flex justify-center items-center text-center'>
-          <hr className='w-[280px] mb-[-15px]  ' />
+        <div className='flex justify-center items-start text-start'>
+          <hr className='w-[230px] mb-[-15px] ml-5  ' />
         </div>
         <div className='flex justify-start items-start text-start'>
           <hr className='w-[200px] mb-[-15px] ml-8 ' />
         </div>
         <div className='flex justify-start items-start text-start'>
-          <hr className='w-[150px] mb-[300px] ml-8 ' />
+          <hr className='w-[150px] mb-[300px] ml-[30px] ' />
         </div>
         <div className=' flex justify-center items-center'>
           <button
