@@ -32,9 +32,9 @@ const page = () => {
 
             </div>
             <div id='hr3' className='flex z-50 justify-center items-center mt-[120px] relative'>
-                <button
+                <button onClick={() => window.location.href = "/page-3"}
                     className='bg-white text-blue-600 w-[300px] h-[50px] rounded-[8px] hover:bg-gray-300'>
-                    <p className='text-[14px] font-semibold'>Hangi Canlılarla Karşılaşacağım?</p>
+                    <p className='text-[14px] font-semibold'>Tur Paketlerimiz</p>
                 </button>
             </div>
         </div>
