@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'custom-blue': '#181a78;', // Özel rengi buraya ekleyin
+        'custom-blue': '#091043', // Özel rengi buraya ekleyin
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

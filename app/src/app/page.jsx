@@ -12,14 +12,22 @@ const Page = () => {
       <div className='z-50 mt-[50px]'>
         <h1 className='mt-[80px] flex ml-10 text-[35px] text-gray-300'>AQUA</h1>
 
-        <p className='w-[250px] text-[14px] ml-10 mt-10 text-gray-300'>
-          Bir ömür boyu unutamayacağınız bir maceraya atılın! Türkiye’nin en güzel su altı noktalarında, profesyonel rehberler eşliğinde unutulmaz bir yolculuğa çıkın. Şimdi yerinizi ayırtın ve deniz altının büyüleyici dünyasını keşfedin.
+        <p className='w-[260px] text-[14px] ml-10 mt-10 text-gray-300 mb-[-8px]'>
+          Türkiye’nin en güzel su altı noktalarında, profesyonel rehberler eşliğinde unutulmaz bir yolculuğa çıkın.
         </p>
-
-        <div className='mt-[200px] flex justify-center items-center'>
+        <div className='flex justify-center items-center text-center'>
+          <hr className='w-[280px] mb-[-15px]  ' />
+        </div>
+        <div className='flex justify-start items-start text-start'>
+          <hr className='w-[200px] mb-[-15px] ml-8 ' />
+        </div>
+        <div className='flex justify-start items-start text-start'>
+          <hr className='w-[150px] mb-[300px] ml-8 ' />
+        </div>
+        <div className=' flex justify-center items-center'>
           <button
             onClick={() => window.location.href = '/page-2'}
-            className='bg-white w-[300px] h-[50px] hover:bg-gray-300 rounded-[10px]'>
+            className='bg-white w-[300px] h-[50px] hover:bg-gray-300 rounded-[8px]'>
             <p className='text-blue-600 text-[16px] mt-3 font-semibold'>Hemen Başlayın</p>
           </button>
         </div>

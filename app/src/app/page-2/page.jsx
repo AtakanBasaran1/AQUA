@@ -2,16 +2,18 @@
 import React from 'react'
 import page2 from '../images/page2.png'
 import { TbArrowBackUp } from "react-icons/tb";
+import Navbar from '../Navbar'
 
 const page = () => {
     return (
         <div className='min-h-screen w-full bg-custom-blue flex flex-col  relative'>
+            <Navbar />
             <img src={page2.src} alt="" className="w-full h-full z-10 object-cover fixed" />
 
             <div
                 onClick={() => window.location.href = '/'}
-                className='flex justify-end z-50 mr-3 text-white'>
-                <TbArrowBackUp className='size-8 z-50 hover:text-gray-300 absolute mt-4 ' />
+                className='flex justify-end cursor-pointer z-50 mr-3 text-white'>
+                <TbArrowBackUp className='size-8 bg-gray-500 opacity-80 rounded-[300px] p-1 z-50 hover:bg-gray-300 absolute mt-4 ' />
             </div>
 
             <div className='z-50 mt-[120px] text-gray-300 ml-5 flex flex-col items-start'>
@@ -29,9 +31,9 @@ const page = () => {
 
 
             </div>
-            <div className='flex z-50 justify-center items-center mt-[100px] relative'>
+            <div className='flex z-50 justify-center items-center mt-[120px] relative'>
                 <button
-                    className='bg-white text-blue-600 w-[300px] h-[50px] rounded-[10px] hover:bg-gray-300'>
+                    className='bg-white text-blue-600 w-[300px] h-[50px] rounded-[8px] hover:bg-gray-300'>
                     <p className='text-[14px] font-semibold'>Hangi Canlılarla Karşılaşacağım?</p>
                 </button>
             </div>
