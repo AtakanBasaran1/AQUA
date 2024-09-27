@@ -6,7 +6,7 @@ import dogfish from './images/dogfish.png'
 
 const Page = () => {
   return (
-    <div className='min-h-screen w-full bg-custom-blue flex flex-col'>
+    <div className='min-h-screen fixed w-full bg-custom-blue flex flex-col'>
       <img src={page1.src} alt="" className="w-full h-full z-10 object-cover fixed" />
 
       <div className='z-50 mt-[50px]'>

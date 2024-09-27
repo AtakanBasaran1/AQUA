@@ -6,7 +6,7 @@ import Navbar from '../Navbar'
 
 const page = () => {
     return (
-        <div className='min-h-screen w-full bg-custom-blue flex flex-col  relative'>
+        <div className='min-h-screen fixed w-full bg-custom-blue flex flex-col '>
             <Navbar />
             <img src={page2.src} alt="" className="w-full h-full z-10 object-cover fixed" />
 
