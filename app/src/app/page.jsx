@@ -19,7 +19,7 @@ const Page = () => {
         <div className='mt-[200px] flex justify-center items-center'>
           <button
             onClick={() => window.location.href = '/page-2'}
-            className='bg-white w-[280px] h-[50px] hover:bg-gray-300 rounded-[10px]'>
+            className='bg-white w-[300px] h-[50px] hover:bg-gray-300 rounded-[10px]'>
             <p className='text-blue-600 text-[16px] mt-3 font-semibold'>Hemen Başlayın</p>
           </button>
         </div>

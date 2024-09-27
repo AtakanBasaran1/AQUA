@@ -31,7 +31,7 @@ const page = () => {
             </div>
             <div className='flex z-50 justify-center items-center mt-[100px] relative'>
                 <button
-                    className='bg-white text-blue-600 w-[280px] h-[50px] rounded-[10px] hover:bg-gray-300'>
+                    className='bg-white text-blue-600 w-[300px] h-[50px] rounded-[10px] hover:bg-gray-300'>
                     <p className='text-[14px] font-semibold'>Hangi Canlılarla Karşılaşacağım?</p>
                 </button>
             </div>
