@@ -1,12 +1,21 @@
+"use client"
 import React from 'react'
 import page2 from '../images/page2.png'
+import { TbArrowBackUp } from "react-icons/tb";
 
 const page = () => {
     return (
         <div className='min-h-screen w-full bg-custom-blue flex flex-col  relative'>
             <img src={page2.src} alt="" className="w-full h-full z-10 object-cover fixed" />
 
+            <div
+                onClick={() => window.location.href = '/'}
+                className='flex justify-end z-50 mr-3 text-white'>
+                <TbArrowBackUp className='size-8 z-50 hover:text-gray-300 absolute mt-4 ' />
+            </div>
+
             <div className='z-50 mt-[120px] text-gray-300 ml-5 flex flex-col items-start'>
+
                 <h1 className='text-[20px] w-[250px] font-bold text-start'>Neden Bizimle Keşfetmelisiniz?</h1>
                 <p className='text-[12px] mt-5 w-[280px] text-start'>
                     <span className='font-bold'>Eşsiz Bir Deneyim:</span> Deniz altının renkli ve gizemli dünyasında yolculuk yaparak su altı canlılarıyla tanışma fırsatı.
